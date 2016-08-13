@@ -6,7 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
 @font-face{
 font-family: englishessay;
 src:url('../fonts/english_essay.ttf');
@@ -150,6 +149,8 @@ iframe {
 
 .squadSubmit{
   position: relative;
+  bottom: 100%;
+  margin: 2%;
   left: 80%;
 }
 
@@ -159,6 +160,9 @@ iframe {
   margin: 0 auto;
 }
 
+#contentSubmit {
+}
+
 #loginSubmit, #signupSubmit {
   position: relative;
   left: 70%;
@@ -166,4 +170,43 @@ iframe {
 
 form {
   overflow: visible;
+}
+
+.header {
+  font-family: kindergarten;
+  color:#ffb74d;
+}
+
+.userView {
+  width: 100%;
+  height: 18vh;
+}
+
+
+.calendar {
+ 
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.calendar iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}
+
+.youtube {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.youtube iframe, .youtube object, .youtube embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }

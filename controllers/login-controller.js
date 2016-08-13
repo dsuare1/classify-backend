@@ -6,6 +6,10 @@ module.exports = function(app, models) {
     console.log('login controller loaded.');
     var sessionUser;
     app.get('/admin', function(req, res) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71b3236aa2893e96953ff0aa19254cb1bf05c40d
         if (!sessionUser) {
             return res.status(401).send();
         } else {
@@ -69,7 +73,5 @@ module.exports = function(app, models) {
                     });
                 }
             })
-            req.session.user = req.body.signupName;
-            res.redirect('/admin');
     })
 };
